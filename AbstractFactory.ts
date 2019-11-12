@@ -50,7 +50,7 @@ class Card {
 
 
 interface IPoster extends Product {
-    discrimator: 'poster';
+    discriminator: 'poster';
     size: number;
     subject: string;
 }
